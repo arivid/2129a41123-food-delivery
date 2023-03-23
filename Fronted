@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>Food Delivery Website</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <nav>
+
+        <ul>
+
+          <li><a href="#">Home</a></li>
+
+          <li><a href="#">Menu</a></li>
+
+          <li><a href="#">About</a></li>
+
+          <li><a href="#">Contact</a></li>
+
+        </ul>
+
+      </nav>
+
+    </header>
+
+    <main>
+
+      <section id="banner">
+
+        <h1>Welcome to our Food Delivery Service</h1>
+
+        <p>Order delicious food online and get it delivered to your doorstep.</p>
+
+        <a href="#" class="button">Order Now</a>
+
+      </section>
+
+      <section id="menu">
+
+        <h2>Our Menu</h2>
+
+        <ul>
+
+          <li>
+
+            <img src="menu-item-1.jpg" alt="Menu Item 1">
+
+            <h3>Menu Item 1</h3>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <span class="price">$10</span>
+
+            <a href="#" class="button">Order Now</a>
+
+          </li>
+
+          <li>
+
+            <img src="menu-item-2.jpg" alt="Menu Item 2">
+
+            <h3>Menu Item 2</h3>
+
+            <p>Etiam sagittis lectus vitae metus auctor euismod.</p>
+
+            <span class="price">$12</span>
+
+            <a href="#" class="button">Order Now</a>
+
+          </li>
+
+          <li>
+
+            <img src="menu-item-3.jpg" alt="Menu Item 3">
+
+            <h3>Menu Item 3</h3>
+
+            <p>Praesent fermentum augue eget sagittis tristique.</p>
+
+            <span class="price">$15</span>
+
+            <a href="#" class="button">Order Now</a>
+
+          </li>
+
+        </ul>
+
+      </section>
+
+      <section id="about">
+
+        <h2>About Us</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit magna eu dolor bibendum, sed commodo elit feugiat. Donec ac rutrum ex, vel tristique augue.</p>
+
+        <a href="#" class="button">Learn More</a>
+
+      </section>
+
+      <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        <form>
+
+          <label for="name">Name</label>
+
+          <input type="text" id="name" name="name">
+
+          <label for="email">Email</label>
+
+          <input type="email" id="email" name="email">
+
+          <label for="message">Message</label>
+
+          <textarea id="message" name="message"></textarea>
+
+          <button type="submit">Send Message</button>
+
+        </form>
+
+      </section>
+
+    </main>
+
+    <footer>
+
+      <p>&copy; 2023 Food Delivery Website. All rights reserved.</p>
+
+    </footer>
+
+  </body>
+
+</html>
